@@ -96,7 +96,7 @@ void modify_account(int);	//function to modify record of file
 void delete_account(int);	//function to delete record of file
 void display_all();		//function to display all account details
 void deposit_withdraw(int, int); // function to desposit/withdraw amount for given account
-void leaderboard();	//function to display account details given by user
+void leaderboard();	//function to display the most contributor or depositor
 void intro();	//introductory screen function
 
 //***************************************************************
@@ -434,9 +434,6 @@ void leaderboard()
 	{
 		ac.report();
 	}
-
-  
-
 	inFile.close();
 }
 
