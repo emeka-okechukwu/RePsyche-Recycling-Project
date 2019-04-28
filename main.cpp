@@ -1,5 +1,5 @@
 //***************************************************************
-//                   HEADER FILE USED IN PROJECT
+//                   HEADERS
 //****************************************************************
 
 #include<iostream>
@@ -9,7 +9,7 @@
 using namespace std;
 
 //***************************************************************
-//                   CLASS USED IN PROJECT
+//                   CLASSES
 //****************************************************************
 
 
@@ -100,7 +100,7 @@ void leaderboard();	//function to display the most contributor or depositor
 void intro();	//introductory screen function
 
 //***************************************************************
-//    	THE MAIN FUNCTION OF PROGRAM
+//    	MAIN FUNCTIONS
 //****************************************************************
 
 
@@ -449,7 +449,3 @@ void intro()
 	cout<<"\n\n\tA Recycling Project";
   cout << endl << endl;
 }
-
-//***************************************************************
-//    			END OF PROJECT
-//***************************************************************
